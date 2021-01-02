@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "name": "jackie",
+        "company": "def trek",
+        "phone": "55-635746-434"
+    },
+    {
+        "id": 2,
+        "name": "john",
+        "company": "abc trek",
+        "phone": "63-54-3434"
+    },
+    {
+        "id": 3,
+        "name": "jampa",
+        "company": "haea trek",
+        "phone": "53434-3434"
+    }
+]
+
