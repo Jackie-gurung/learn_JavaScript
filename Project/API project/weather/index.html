@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App | API Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="location">
+        <h1 class="location-timezone">Time-zone</h1>
+        <canvas height="100px" width="100px" class="icon"></canvas>
+    </div>
+    <div class="temperature">
+        
+        <div class="degree-section">
+            <h2 class="temperature-degree">34</h2>
+            <span>c</span>
+        </div>
+        <div class="temperature-description">it cold...</div>
+    </div>
+    <div id="searchContainer">
+        <input type="text" class="searchControl" id="searchCity" placeholder="City Name">
+        <input type="text" class="searchControl" id="searchCountry" placeholder="country Name">
+        <button class="searchControl" id="searchBtn">Search</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

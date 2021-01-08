@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(79, 120, 124),rgb(48,64,153));
+    font-family: sans-serif;
+    color: #fff;
+
+    background-image: url("default.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.location,
+.temperature{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.temperature{
+    flex-direction: column;
+}
+.degree-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.degree-section span{
+    margin: 10px;
+    font-size: 2.8rem;
+    color: rgb(240, 138, 13);
+
+}
+.degree-section h2{
+    font-size:3.2rem;
+    color: rgb(240, 138, 13);
+}
+.temperature-description{
+    font-size: 1.5rem;
+    color: #fff;
+    background: rgba(0,0,0,0.4);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+#searchContainer{
+    margin: 15px;
+    padding: 15px;
+    height: 13rem;
+    width: 23rem;
+    background: rgba(0,0,0,0.4);
+    border-radius: 20px;
+}
+.searchControl{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    height: 2.5rem;
+    width: 20rem;
+    border-radius: 6px;
+}
