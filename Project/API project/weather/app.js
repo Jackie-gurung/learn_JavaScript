@@ -64,7 +64,7 @@ window.addEventListener('load',()=>{
             lat = position.coords.latitude;
             // console.log(long,lat);
 
-            const api = `https://api.weatherbit.io/v2.0/current?&lat=${lat}&lon=${long}&key=847dfa0c5ea24745b03856d6c905ab5b`;
+            const api = `https://api.weatherbit.io/v2.0/current?&lat=${lat}&lon=${long}&key=Enter your key`;
             
             fetch(api)
                 .then(response => {
@@ -90,7 +90,7 @@ window.addEventListener('load',()=>{
     })
 
     function searchWeather(city,country){
-        fetch(`https://api.weatherbit.io/v2.0/current?&city=${city}&country=${country}&key=847dfa0c5ea24745b03856d6c905ab5b`).then(result =>{
+        fetch(`https://api.weatherbit.io/v2.0/current?&city=${city}&country=${country}&key=Enter your key`).then(result =>{
             return result.json();
         }).then(res=>{
             // set DOM element according to the API 
